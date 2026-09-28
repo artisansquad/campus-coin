@@ -478,9 +478,15 @@
 
                 <div>
                     <label class="block text-xs font-medium text-slate-400 mb-1">Deposit Amount ({{ $user->currencySymbol() }}) *</label>
-                    <input type="number" step="10" min="1" name="amount" required placeholder="e.g. 2500"
-                           class="w-full px-3.5 py-2.5 rounded-xl border bg-slate-900 border-slate-700 text-sm text-white focus:border-emerald-500 focus:outline-none font-mono">
-                </div>
+                    <input
+                          type="number"
+                          step="any"
+                          min="1"
+                          name="amount"
+                          required
+                          placeholder="e.g. 2500"
+                          class="w-full px-3.5 py-2.5 rounded-xl border bg-slate-900 border-slate-700 text-sm text-white focus:border-emerald-500                   focus:outline-none font-mono"
+    >
 
                 <div>
                     <label class="block text-xs font-medium text-slate-400 mb-1">Note (Optional)</label>

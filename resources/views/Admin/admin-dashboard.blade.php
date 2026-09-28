@@ -754,8 +754,7 @@
                             <div class="flex items-center gap-2 text-blue-400 text-xs font-semibold tracking-[.22em] uppercase"><span class="w-7 h-px bg-blue-500"></span>Management</div>
                             <h2 class="text-3xl font-bold text-white mt-3">Users</h2>
                             <p class="text-slate-400 mt-2">Manage student accounts and platform activity.</p>
-                        </div>
-                        <button @click="notify('Create user form opened')" class="px-4 py-2.5 rounded-xl bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold transition">+ Add User</button>
+                        </div>                       
                     </div>
                 </div>
 
@@ -774,13 +773,7 @@
                                 <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
                                 <input x-model="userSearch" type="text" placeholder="Search users..." class="input-dark w-full rounded-xl pl-10 pr-4 py-2.5 text-sm">
                             </div>
-                            <div class="flex gap-2">
-                                <select x-model="userStatus" class="input-dark rounded-xl px-3 py-2.5 text-sm">
-                                    <option value="all">All Status</option>
-                                    <option value="active">Active</option>
-                                    <option value="disabled">Disabled</option>
-                                </select>
-                            </div>
+                            
                         </div>
                     </div>
 
