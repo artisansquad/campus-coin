@@ -61,7 +61,7 @@
             inset: 0;
             pointer-events: none;
             opacity: .16;
-            background-image:
+            background-git remote add origin https://github.com/artisansquad/campus-coin.git:
                 linear-gradient(rgba(148, 163, 184, .045) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(148, 163, 184, .045) 1px, transparent 1px);
             background-size: 55px 55px;
